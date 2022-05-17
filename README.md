@@ -11,4 +11,4 @@ A data structure is a specialized format for organizing, processing, retrieving 
 
 # Register User For Live Web notifications
 
-![Register](https://github.com/jitendra-meena/Firebase-Web-Notification/blob/main/images/reg.jpeg)
+![Register](https://github.com/jitendra-meena/Data-Structures-and-Algorithms/blob/main/DSA.jpeg)
