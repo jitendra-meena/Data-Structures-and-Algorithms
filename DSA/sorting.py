@@ -38,3 +38,39 @@ for i in range(0,l):
         if l1[j]<l1[j+1]:
             l1[j],l1[j+1]=l1[j+1],l1[j]
 print(l1)
+
+
+
+'''
+Selection Sort Algorithm
+
+Selection sort is a sorting algorithm that selects the smallest element
+            from an unsorted list in each iteration and places that
+                                   element at the beginning of the unsorted list.
+
+
+'''
+
+'''
+Selection Sort Complexity
+
+Time Complexity	 
+Best	O(n2)
+Worst	O(n2)
+Average	O(n2)
+Space Complexity	O(1)
+Stability	No
+'''
+
+l1 = [12,3,4,22,44,33,66,44]
+
+
+for i in range(l):
+    min = i
+    for j in range(i,l):
+        if l1[j] < l1[min]:
+            min = j
+    l1[i],l1[min]=l1[min],l1[i]
+    print(l1)
+    
+print(l1," _________________selection Sort___________________ ")    
