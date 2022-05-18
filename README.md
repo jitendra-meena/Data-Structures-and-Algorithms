@@ -56,7 +56,7 @@ It occurs when the elements of the array are in jumbled order (neither ascending
 Space complexity is O(1) because an extra variable is used for swapping.
 In the optimized bubble sort algorithm, two extra variables are used. Hence, the space complexity will be O(2)
 ```
-@@ Selection Sort Complexity @@
+# Selection Sort Complexity
  ```bash
 Time Complexity	 
 Best	O(n2)
