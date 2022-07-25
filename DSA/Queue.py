@@ -14,11 +14,14 @@ class Queue:
         self.queue = []
     
     def enqueue(self,item):
-        self.queue.append(item)
-        
+        if len(self.queue) <= 5:
+            self.queue.append(item)
+        else:
+            return "overflow"
+            
     def dqueue(self,item):
-        if len(self.queue)<1:
-            return None
+        if len(self.queue)==0:
+            return "underflow"
         self.queue.pop(item)
     
     def display(self):
