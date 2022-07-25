@@ -1,4 +1,11 @@
+"""
+The queue is a linear data structure where elements are in a sequential manner.
+        It follows the F.I.F.O mechanism that means first in first out.
+Think when you go to the cinema with your friends, as you can imagine the first of you that give the ticket is also
+       the first that step out of the line. The mechanism of the queue is the same.
 
+
+"""
 
 
 class Queue:
