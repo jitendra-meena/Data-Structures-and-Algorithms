@@ -5,6 +5,20 @@ Think when you go to the cinema with your friends, as you can imagine the first 
        the first that step out of the line. The mechanism of the queue is the same.
 
 
+
+Two ends:
+
+front → points to starting element
+rear → points to the last element
+There are two operations:
+
+enqueue → inserting an element into the queue. It will be done at the rear.
+dequeue → deleting an element from the queue. It will be done at the front.
+There are two conditions:
+
+overflow → insertion into a queue that is full
+underflow → deletion from the empty queue
+
 """
 
 
