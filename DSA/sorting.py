@@ -73,4 +73,22 @@ for i in range(l):
     l1[i],l1[min]=l1[min],l1[i]
     print(l1)
     
-print(l1," _________________selection Sort___________________ ")    
+print(l1," _________________selection Sort___________________ ")   
+
+
+
+
+
+# Insertion Sort 
+
+l3 = [12,323,42,2,44,33,66,44,1]
+
+for i in range(len(l3)):
+    key = l3[i]
+    j = i-1
+    while j>=0 and key < l3[j]:
+        l3[j+1] = l3[j]
+        j -= 1
+    l3[j+1] = key
+print(l3," _________________Insertion Sort___________________ ")   
+
