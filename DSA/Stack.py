@@ -5,7 +5,6 @@ Push → inserting an element into the stack
 
 Pop → deleting an element from the stack
 
-
 '''
 
 class Stack():
