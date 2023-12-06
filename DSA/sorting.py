@@ -93,6 +93,7 @@ for i in range(len(l3)):
 print(l3," _________________Insertion Sort___________________ ")  
 
 
+
 def mergeSort(myList):
     if len(myList) > 1:
         mid = len(myList) // 2
