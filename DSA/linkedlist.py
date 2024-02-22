@@ -1,3 +1,11 @@
+"""
+What is Linked List in Python
+A linked list is a type of linear data structure similar to arrays. It is a collection of nodes that are linked with each other. 
+A node contains two things first is data and second is a link that connects it with another node.
+Below is an example of a linked list with four nodes and each node contains character data and a link to another node.
+Our first node is where head points and we can access all the elements of the linked list using the head.
+"""
+
 class Node:
     def __init__(self, data=None):
         self.data = data
