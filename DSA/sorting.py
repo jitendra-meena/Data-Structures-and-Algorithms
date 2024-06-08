@@ -10,8 +10,6 @@ A Python bubble sort goes through a list and compares elements next to each othe
 
 '''
 
-
-
 '''
 Ascending Order 
 '''
